@@ -1,11 +1,27 @@
-# Blockchain in Go
+# Installation
 
-A blockchain implementation in Go, as described in these articles:
+## From Docker-Hub
 
-1. [Basic Prototype](https://jeiwan.net/posts/building-blockchain-in-go-part-1/)
-2. [Proof-of-Work](https://jeiwan.net/posts/building-blockchain-in-go-part-2/)
-3. [Persistence and CLI](https://jeiwan.net/posts/building-blockchain-in-go-part-3/)
-4. [Transactions 1](https://jeiwan.net/posts/building-blockchain-in-go-part-4/)
-5. [Addresses](https://jeiwan.net/posts/building-blockchain-in-go-part-5/)
-6. [Transactions 2](https://jeiwan.net/posts/building-blockchain-in-go-part-6/)
-7. [Network](https://jeiwan.net/posts/building-blockchain-in-go-part-7/)
+    docker pull ignema/blockchain-go
+
+## From source
+
+### 1. Install Docker tools from the official website
+
+### 2. Clone this project
+
+    git clone https://github.com/Ignema/blockchain_go.git
+
+### 3. Build Docker Image
+
+    docker build -t ignema/blockchain-go .
+
+### 4. Run Container from Image
+
+    docker run -it ignema/blockchain-go
+
+# Usage
+
+## 1. navigate to /out
+
+## 2. Run the blockchain executable named app and interact with the CLI
